@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-09T07:08:40Z" name="Suite" finished-at="2025-09-09T07:12:21Z" duration-ms="220476">
+    <groups>
+    </groups>
+    <test started-at="2025-09-09T07:08:40Z" name="Test" finished-at="2025-09-09T07:12:21Z" duration-ms="220476">
+      <class name="qa_assessment_testcase.FindRegisteredPatientAndVerifyDetailsTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:qa_assessment_testcase.FindRegisteredPatientAndVerifyDetailsTest@38aa816f]" started-at="2025-09-09T12:39:18Z" name="login" finished-at="2025-09-09T12:39:25Z" duration-ms="7004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="findAndverifyPatientDetailsTest(java.util.HashMap)[pri:0, instance:qa_assessment_testcase.FindRegisteredPatientAndVerifyDetailsTest@38aa816f]" started-at="2025-09-09T12:39:25Z" name="findAndverifyPatientDetailsTest" data-provider="getInputdata" finished-at="2025-09-09T12:39:37Z" duration-ms="12044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=abc test}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAndverifyPatientDetailsTest -->
+        <test-method is-config="true" signature="closeSession()[pri:0, instance:qa_assessment_testcase.FindRegisteredPatientAndVerifyDetailsTest@38aa816f]" started-at="2025-09-09T12:39:37Z" name="closeSession" finished-at="2025-09-09T12:39:37Z" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- qa_assessment_testcase.FindRegisteredPatientAndVerifyDetailsTest -->
+      <class name="qa_assessment_testcase.AddAttachmentInStartVisitTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:qa_assessment_testcase.AddAttachmentInStartVisitTest@53f6fd09]" started-at="2025-09-09T12:39:37Z" name="login" finished-at="2025-09-09T12:39:46Z" duration-ms="8782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="startVisitAddAttachmentVerifydetailsTest(java.util.HashMap)[pri:0, instance:qa_assessment_testcase.AddAttachmentInStartVisitTest@53f6fd09]" started-at="2025-09-09T12:39:46Z" name="startVisitAddAttachmentVerifydetailsTest" data-provider="getInputdata" finished-at="2025-09-09T12:40:17Z" duration-ms="30963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{tag1=Attachment Upload, file=\Rose.jpg, name=abc test}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startVisitAddAttachmentVerifydetailsTest -->
+        <test-method is-config="true" signature="closeSession()[pri:0, instance:qa_assessment_testcase.AddAttachmentInStartVisitTest@53f6fd09]" started-at="2025-09-09T12:40:17Z" name="closeSession" finished-at="2025-09-09T12:40:18Z" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- qa_assessment_testcase.AddAttachmentInStartVisitTest -->
+      <class name="qa_assessment_testcase.PatientRegistrationAndVerificationTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:qa_assessment_testcase.PatientRegistrationAndVerificationTest@77102b91]" started-at="2025-09-09T12:38:52Z" name="login" finished-at="2025-09-09T12:38:59Z" duration-ms="6622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="registerPatientTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:qa_assessment_testcase.PatientRegistrationAndVerificationTest@77102b91]" started-at="2025-09-09T12:38:59Z" name="registerPatientTest" data-provider="getdata" finished-at="2025-09-09T12:39:17Z" duration-ms="18723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2009]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[testaddress]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9090909090]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerPatientTest -->
+        <test-method is-config="true" signature="closeSession()[pri:0, instance:qa_assessment_testcase.PatientRegistrationAndVerificationTest@77102b91]" started-at="2025-09-09T12:39:18Z" name="closeSession" finished-at="2025-09-09T12:39:18Z" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- qa_assessment_testcase.PatientRegistrationAndVerificationTest -->
+      <class name="qa_assessment_testcase.HomePageTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:qa_assessment_testcase.HomePageTest@7a1234bf]" started-at="2025-09-09T12:38:40Z" name="login" finished-at="2025-09-09T12:38:48Z" duration-ms="7950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="homePageverificationTest()[pri:0, instance:qa_assessment_testcase.HomePageTest@7a1234bf]" started-at="2025-09-09T12:38:48Z" name="homePageverificationTest" finished-at="2025-09-09T12:38:51Z" duration-ms="2492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageverificationTest -->
+        <test-method is-config="true" signature="closeSession()[pri:0, instance:qa_assessment_testcase.HomePageTest@7a1234bf]" started-at="2025-09-09T12:38:51Z" name="closeSession" finished-at="2025-09-09T12:38:51Z" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- qa_assessment_testcase.HomePageTest -->
+      <class name="qa_assessment_testcase.MergeVisitsAndVerifyTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:qa_assessment_testcase.MergeVisitsAndVerifyTest@13330ac6]" started-at="2025-09-09T12:41:01Z" name="login" finished-at="2025-09-09T12:41:09Z" duration-ms="7145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="mergeVisitsAndVerifywithTagsTest(java.util.HashMap)[pri:0, instance:qa_assessment_testcase.MergeVisitsAndVerifyTest@13330ac6]" started-at="2025-09-09T12:41:09Z" name="mergeVisitsAndVerifywithTagsTest" data-provider="getInputdata" finished-at="2025-09-09T12:41:32Z" duration-ms="23306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{tag1=Attachment Upload, name=abc test, weight=66.5, tag2=Vitals, height=167.5}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mergeVisitsAndVerifywithTagsTest -->
+        <test-method is-config="true" signature="closeSession()[pri:0, instance:qa_assessment_testcase.MergeVisitsAndVerifyTest@13330ac6]" started-at="2025-09-09T12:41:32Z" name="closeSession" finished-at="2025-09-09T12:41:32Z" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- qa_assessment_testcase.MergeVisitsAndVerifyTest -->
+      <class name="qa_assessment_testcase.DeletePatientAndRecheckTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:qa_assessment_testcase.DeletePatientAndRecheckTest@24ba9639]" started-at="2025-09-09T12:41:57Z" name="login" finished-at="2025-09-09T12:42:03Z" duration-ms="6354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="deletePatientRecordAndVerifyInFindPatientTest(java.util.HashMap)[pri:0, instance:qa_assessment_testcase.DeletePatientAndRecheckTest@24ba9639]" started-at="2025-09-09T12:42:03Z" name="deletePatientRecordAndVerifyInFindPatientTest" data-provider="getInputdata" finished-at="2025-09-09T12:42:20Z" duration-ms="16896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{reason=Testing, name=abc test}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePatientRecordAndVerifyInFindPatientTest -->
+        <test-method is-config="true" signature="closeSession()[pri:0, instance:qa_assessment_testcase.DeletePatientAndRecheckTest@24ba9639]" started-at="2025-09-09T12:42:20Z" name="closeSession" finished-at="2025-09-09T12:42:21Z" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- qa_assessment_testcase.DeletePatientAndRecheckTest -->
+      <class name="qa_assessment_testcase.AddPastVisitAndVerifyFutureDateTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:qa_assessment_testcase.AddPastVisitAndVerifyFutureDateTest@2f62ea70]" started-at="2025-09-09T12:41:32Z" name="login" finished-at="2025-09-09T12:41:39Z" duration-ms="7248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="clickAddPastVisitAndVerifyFutureDateTest(java.util.HashMap)[pri:0, instance:qa_assessment_testcase.AddPastVisitAndVerifyFutureDateTest@2f62ea70]" started-at="2025-09-09T12:41:39Z" name="clickAddPastVisitAndVerifyFutureDateTest" data-provider="getInputdata" finished-at="2025-09-09T12:41:57Z" duration-ms="17217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=abc test}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAddPastVisitAndVerifyFutureDateTest -->
+        <test-method is-config="true" signature="closeSession()[pri:0, instance:qa_assessment_testcase.AddPastVisitAndVerifyFutureDateTest@2f62ea70]" started-at="2025-09-09T12:41:57Z" name="closeSession" finished-at="2025-09-09T12:41:57Z" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- qa_assessment_testcase.AddPastVisitAndVerifyFutureDateTest -->
+      <class name="qa_assessment_testcase.CaptureVitalsAndVerifyBMITest">
+        <test-method is-config="true" signature="login()[pri:0, instance:qa_assessment_testcase.CaptureVitalsAndVerifyBMITest@6bffbc6d]" started-at="2025-09-09T12:40:18Z" name="login" finished-at="2025-09-09T12:40:27Z" duration-ms="9631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="captureVitalsAndVerifyBMITest(java.util.HashMap)[pri:0, instance:qa_assessment_testcase.CaptureVitalsAndVerifyBMITest@6bffbc6d]" started-at="2025-09-09T12:40:27Z" name="captureVitalsAndVerifyBMITest" data-provider="getInputdata" finished-at="2025-09-09T12:41:01Z" duration-ms="33886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{tag1=Attachment Upload, name=abc test, weight=66.5, tag2=Vitals, height=167.5}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureVitalsAndVerifyBMITest -->
+        <test-method is-config="true" signature="closeSession()[pri:0, instance:qa_assessment_testcase.CaptureVitalsAndVerifyBMITest@6bffbc6d]" started-at="2025-09-09T12:41:01Z" name="closeSession" finished-at="2025-09-09T12:41:01Z" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- qa_assessment_testcase.CaptureVitalsAndVerifyBMITest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="listeners.Listeners"></listener>
+</listeners>
+	<test preserve-order="true" name="Test">
+		<classes>
+			<class name="qa_assessment_testcase.HomePageTest" />
+			<class name="qa_assessment_testcase.PatientRegistrationAndVerificationTest" />
+			<class name="qa_assessment_testcase.FindRegisteredPatientAndVerifyDetailsTest" />
+			<class name="qa_assessment_testcase.AddAttachmentInStartVisitTest" />
+			<class name="qa_assessment_testcase.CaptureVitalsAndVerifyBMITest" />
+			<class name="qa_assessment_testcase.MergeVisitsAndVerifyTest" />
+			<class name="qa_assessment_testcase.AddPastVisitAndVerifyFutureDateTest" />			
+			<class name="qa_assessment_testcase.DeletePatientAndRecheckTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

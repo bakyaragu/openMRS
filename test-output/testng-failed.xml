@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="listeners.Listeners"/>
+  </listeners>
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="qa_assessment_testcase.AddAttachmentInStartVisitTest">
+        <methods>
+          <include name="closeSession"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- qa_assessment_testcase.AddAttachmentInStartVisitTest -->
+      <class name="qa_assessment_testcase.PatientRegistrationAndVerificationTest">
+        <methods>
+          <include name="closeSession"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- qa_assessment_testcase.PatientRegistrationAndVerificationTest -->
+      <class name="qa_assessment_testcase.FindRegisteredPatientAndVerifyDetailsTest">
+        <methods>
+          <include name="closeSession"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- qa_assessment_testcase.FindRegisteredPatientAndVerifyDetailsTest -->
+      <class name="qa_assessment_testcase.CaptureVitalsAndVerifyBMITest">
+        <methods>
+          <include name="closeSession"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- qa_assessment_testcase.CaptureVitalsAndVerifyBMITest -->
+      <class name="qa_assessment_testcase.MergeVisitsAndVerifyTest">
+        <methods>
+          <include name="closeSession"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- qa_assessment_testcase.MergeVisitsAndVerifyTest -->
+      <class name="qa_assessment_testcase.AddPastVisitAndVerifyFutureDateTest">
+        <methods>
+          <include name="closeSession"/>
+          <include name="login"/>
+          <include name="clickAddPastVisitAndVerifyFutureDateTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- qa_assessment_testcase.AddPastVisitAndVerifyFutureDateTest -->
+      <class name="qa_assessment_testcase.DeletePatientAndRecheckTest">
+        <methods>
+          <include name="closeSession"/>
+          <include name="login"/>
+          <include name="deletePatientRecordAndVerifyInFindPatientTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- qa_assessment_testcase.DeletePatientAndRecheckTest -->
+      <class name="qa_assessment_testcase.HomePageTest">
+        <methods>
+          <include name="closeSession"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- qa_assessment_testcase.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
