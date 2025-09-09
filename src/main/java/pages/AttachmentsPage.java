@@ -23,7 +23,6 @@ public class AttachmentsPage extends Base{
 	By dropFile = By.id("visit-documents-dropzone");
 	By caption=By.xpath("//textarea[@placeholder='Enter a caption']");
 	By uploadFile = By.xpath("//button[text()='Upload file']");
-	;
 	
 	
 	public void uploadFile(String filePath) throws AWTException {

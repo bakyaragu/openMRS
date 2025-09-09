@@ -82,9 +82,6 @@ public class PatientRegisterPage extends Base{
 		String[] str = registerdString.split(":");
 		return str[1].trim();
 	}
-	/*
-	 * public void clickNextPage() { driver.findElement(navigate).click(); }
-	 */
 
 	public void clickConfirm() {
 		driver.findElement(confirmButton).click();

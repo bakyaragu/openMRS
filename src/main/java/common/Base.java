@@ -31,14 +31,12 @@ public class Base {
 	By navigate = By.xpath("//button[@class='confirm']/following-sibling::button[1]");
 	By givenName = By.xpath("//span[@class='PersonName-givenName']");
 	By givenFamName = By.xpath("//span[@class='PersonName-familyName']");
-	By generalActions = By.xpath("//div[@class='action-section']//ul[1]");
 	By toaster = By.xpath("//div[@class='toast-item-wrapper']");
 	
 	public RegisteredPatientDetailPage redirectToDetailsPage() {
 		driver.navigate().refresh();
 		waitForelementToBeVisible(givenFamName);
 		driver.findElement(givenName).click();
-		//waitForelementToBeInVisible(generalActions);
 		RegisteredPatientDetailPage detailPage = new RegisteredPatientDetailPage(driver);
 		return detailPage;
 	}

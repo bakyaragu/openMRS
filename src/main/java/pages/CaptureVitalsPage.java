@@ -12,13 +12,13 @@ public class CaptureVitalsPage extends Base {
 		super(driver);
 		this.driver = driver;
 	}
-	
+
 	By height = By.xpath("//span[@id='height']//input");
 	By weight = By.xpath("//span[@id='weight']//input");
 	By calculatedBMI = By.xpath("//span[@id='calculated-bmi']");
 	By saveForm = By.id("save-form");
 	By saveButton = By.xpath("//button[normalize-space(text())='Save']");
-	
+
 	public boolean enterVitalsAndVerifyBMI(String hght, String wght) {
 		String expectedBMI = calculateBMI(Float.valueOf(hght),Float.valueOf(wght));
 		driver.findElement(height).sendKeys(hght);
@@ -34,19 +34,12 @@ public class CaptureVitalsPage extends Base {
 		}
 		return false;
 	}
-	
-	/*
-	 * public String calculateBMI(Float h, Float w) { Float bmi=(w*100*100)/(h*h);
-	 * DecimalFormat df_obj = new DecimalFormat("#.#");
-	 * System.out.println("expected BMI is "+df_obj.format(bmi)); return
-	 * df_obj.format(bmi); }
-	 */
-	
+
 	public void saveVitalsForm() {
 		driver.findElement(saveForm).click();
 		driver.findElement(saveButton).click();
 	}
-	
-	
+
+
 
 }

@@ -113,19 +113,7 @@ public class RegisteredPatientDetailPage extends Base{
 			return true;
 		}
 		return false;
-	}
-	
-	/*
-	 * public boolean hasRecentVisitWithCurrentDate(String tag) { List<WebElement>
-	 * list= driver.findElements(recentVisits); for (WebElement ele : list) { String
-	 * date =ele.getText(); DateFormat dateFormat = new
-	 * SimpleDateFormat("dd.MMM.yyyy"); Date d = new Date(); String currentDate =
-	 * dateFormat.format(d); if(date.contains(currentDate)) {
-	 * if(date.contains("Attachment Upload")) {
-	 * System.out.println("Both date are same"+date); return true; } } } return
-	 * false; }
-	 */
-	
+	}	
 	
 	public MergeVisitsPage clickMergeVisit() {
 		driver.findElement(mergeVisit).click();
